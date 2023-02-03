@@ -1,0 +1,929 @@
+Microsoft Windows [Version 10.0.22000.613]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>py app.py
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m class run
+C:\Users\91897\AppData\Local\Programs\Python\Python310\python.exe: No module named class
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m app.py run
+C:\Users\91897\AppData\Local\Programs\Python\Python310\python.exe: Error while finding module specification for 'app.py' (ModuleNotFoundError: __path__ attribute not found on 'app' while trying to find 'app.py'). Try using 'app' instead of 'app.py' as the module name.
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m app run
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Unzipping tokenizers\punkt.zip.
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Unzipping taggers\averaged_perceptron_tagger.zip.
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Unzipping corpora\brown.zip.
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [28/Apr/2022 09:19:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2022 09:19:55] "GET /favicon.ico HTTP/1.1" 404 -
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [28/Apr/2022 15:51:01] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [28/Apr/2022 15:52:07] "GET / HTTP/1.1" 200 -
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [28/Apr/2022 15:52:12] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 11:31:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2022 11:31:51] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m app run
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 11:34:32] "GET / HTTP/1.1" 200 -
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 11:35:23] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 11:36:23] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 22:33:11] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 22:55:04] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 22:59:13] "GET / HTTP/1.1" 200 -
+^C
+C:\Users\91897\Downloads\Assignments\plotly\plotly>
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [29/Apr/2022 23:02:01] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>python -m flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Sentiment(polarity=0.46875, subjectivity=0.75)
+Sentiment(polarity=-0.7, subjectivity=0.9)
+Sentiment(polarity=0.15000000000000002, subjectivity=0.7)
+Sentiment(polarity=0.18333333333333335, subjectivity=0.55)
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package brown to
+[nltk_data]     C:\Users\91897\AppData\Roaming\nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+Tags
+[('HPV', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('virus', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('six', 'CD'), ('types', 'NNS'), ('of', 'IN'), ('cancers', 'NNS'), ('later', 'RBR'), ('in', 'IN'), ('life', 'NN'), ('There', 'EX'), ('is', 'VBZ'), ('no', 'DT'), ('cure', 'NN'), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('prevente…', 'JJ'), ('https', 'NN'), ('//t.co/wu5CQtKmaF', 'NN')]
+
+Noun Phrases
+['hpv', 'common virus', 'prevente… https']
+
+Words
+['HPV', 'is', 'a', 'common', 'virus', 'that', 'can', 'lead', 'to', 'six', 'types', 'of', 'cancers', 'later', 'in', 'life', 'There', 'is', 'no', 'cure', 'but', 'it', 'can', 'be', 'prevente…', 'https', 't.co/wu5CQtKmaF']
+
+Sentences
+[Sentence("
+    #HPV is a common virus that can lead to six types of cancers later in life."), Sentence("There is no cure but it can be prevente… https://t.co/wu5CQtKmaF")]
+
+
+    #HPV is a common virus that can lead to six types of cancers later in life.
+polarity: -0.15
+subjectivity: 0.25
+
+There is no cure but it can be prevente… https://t.co/wu5CQtKmaF
+polarity: 0.0
+subjectivity: 0.0
+
+127.0.0.1 - - [30/Apr/2022 01:31:55] "GET / HTTP/1.1" 200 -
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>https://web.cs.kent.edu/~kkommana/Project-1/Bigdata/Credit%20card%20Fraud%20Detection%20using%20Classification%20Algorithm.mp4
+
+C:\Users\91897\Downloads\Assignments\plotly\plotly>
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> python app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 1, in <module>
+    from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install Flask
+Collecting Flask
+  Downloading Flask-2.1.1-py3-none-any.whl (95 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.2/95.2 KB 1.8 MB/s eta 0:00:00
+Collecting click>=8.0
+  Downloading click-8.1.2-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 5.4 MB/s eta 0:00:00
+Collecting itsdangerous>=2.0
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting Jinja2>=3.0
+  Downloading Jinja2-3.1.1-py3-none-any.whl (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.6/132.6 KB 3.9 MB/s eta 0:00:00
+Collecting Werkzeug>=2.0
+  Downloading Werkzeug-2.1.1-py3-none-any.whl (224 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.7/224.7 KB 4.6 MB/s eta 0:00:00
+Collecting colorama
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.1-cp310-cp310-win_amd64.whl (17 kB)
+Installing collected packages: Werkzeug, MarkupSafe, itsdangerous, colorama, Jinja2, click, Flask
+Successfully installed Flask-2.1.1 Jinja2-3.1.1 MarkupSafe-2.1.1 Werkzeug-2.1.1 click-8.1.2 colorama-0.4.4 itsdangerous-2.1.2
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install pandas
+Collecting pandas
+  Downloading pandas-1.4.2-cp310-cp310-win_amd64.whl (10.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.6/10.6 MB 23.4 MB/s eta 0:00:00
+Requirement already satisfied: pytz>=2020.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from pandas) (2022.1)
+Collecting numpy>=1.21.0
+  Downloading numpy-1.22.3-cp310-cp310-win_amd64.whl (14.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.7/14.7 MB 25.1 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.1
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB ? eta 0:00:00
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, numpy, python-dateutil, pandas
+Successfully installed numpy-1.22.3 pandas-1.4.2 python-dateutil-2.8.2 six-1.16.0
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 4, in <module>
+    import plotly
+ModuleNotFoundError: No module named 'plotly'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install plotly
+Collecting plotly
+  Downloading plotly-5.7.0-py2.py3-none-any.whl (28.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 28.8/28.8 MB 22.6 MB/s eta 0:00:00
+Collecting tenacity>=6.2.0
+  Downloading tenacity-8.0.1-py3-none-any.whl (24 kB)
+Requirement already satisfied: six in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from plotly) (1.16.0)
+Installing collected packages: tenacity, plotly
+Successfully installed plotly-5.7.0 tenacity-8.0.1
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install pymatlab
+Collecting pymatlab
+  Downloading pymatlab-0.2.3.tar.gz (21 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: setuptools in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from pymatlab) (58.1.0)
+Requirement already satisfied: numpy in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from pymatlab) (1.22.3)
+Using legacy 'setup.py install' for pymatlab, since package 'wheel' is not installed.
+Installing collected packages: pymatlab
+  Running setup.py install for pymatlab ... done
+Successfully installed pymatlab-0.2.3
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> python app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-3.5.1-cp310-cp310-win_amd64.whl (7.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 15.9 MB/s eta 0:00:00
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.1.0-cp310-cp310-win_amd64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 29.6 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.2-cp310-cp310-win_amd64.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.3/55.3 KB ? eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 KB 1.9 MB/s eta 0:00:00
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.33.3-py3-none-any.whl (930 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 930.9/930.9 KB 29.7 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting pyparsing>=2.2.1
+  Downloading pyparsing-3.0.8-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.5/98.5 KB ? eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib) (2.8.2)
+Requirement already satisfied: numpy>=1.17 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib) (1.22.3)
+Requirement already satisfied: six>=1.5 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Installing collected packages: pyparsing, pillow, kiwisolver, fonttools, cycler, packaging, matplotlib
+Successfully installed cycler-0.11.0 fonttools-4.33.3 kiwisolver-1.4.2 matplotlib-3.5.1 packaging-21.3 pillow-9.1.0 pyparsing-3.0.8
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 14, in <module>
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install seaborn
+Collecting seaborn
+  Downloading seaborn-0.11.2-py3-none-any.whl (292 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 292.8/292.8 KB 2.6 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.15 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from seaborn) (1.22.3)
+Requirement already satisfied: pandas>=0.23 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from seaborn) (1.4.2)
+Collecting scipy>=1.0
+  Downloading scipy-1.8.0-cp310-cp310-win_amd64.whl (37.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.0/37.0 MB 17.2 MB/s eta 0:00:00
+Requirement already satisfied: matplotlib>=2.2 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from seaborn) (3.5.1)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (2.8.2)
+Requirement already satisfied: pillow>=6.2.0 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (9.1.0)
+Requirement already satisfied: pyparsing>=2.2.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (3.0.8)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (1.4.2)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (4.33.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (0.11.0)
+Requirement already satisfied: packaging>=20.0 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib>=2.2->seaborn) (21.3)
+Requirement already satisfied: pytz>=2020.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from pandas>=0.23->seaborn) (2022.1)
+Requirement already satisfied: six>=1.5 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.7->matplotlib>=2.2->seaborn) (1.16.0)
+Installing collected packages: scipy, seaborn
+Successfully installed scipy-1.8.0 seaborn-0.11.2
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 15, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install textblob
+Collecting textblob
+  Downloading textblob-0.17.1-py2.py3-none-any.whl (636 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 636.8/636.8 KB 3.6 MB/s eta 0:00:00
+Collecting nltk>=3.1
+  Downloading nltk-3.7-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 18.8 MB/s eta 0:00:00
+Collecting tqdm
+  Downloading tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 KB ? eta 0:00:00
+Requirement already satisfied: click in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from nltk>=3.1->textblob) (8.1.2)
+Collecting joblib
+  Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.0/307.0 KB 19.8 MB/s eta 0:00:00
+Collecting regex>=2021.8.3
+  Downloading regex-2022.4.24-cp310-cp310-win_amd64.whl (262 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 262.0/262.0 KB 15.7 MB/s eta 0:00:00
+Requirement already satisfied: colorama in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from click->nltk>=3.1->textblob) (0.4.4)
+Installing collected packages: tqdm, regex, joblib, nltk, textblob
+Successfully installed joblib-1.1.0 nltk-3.7 regex-2022.4.24 textblob-0.17.1 tqdm-4.64.0
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Assignments\plotly\plotly\app.py", line 16, in <module>
+    from wordcloud import WordCloud
+ModuleNotFoundError: No module named 'wordcloud'
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> pip install wordcloud
+Collecting wordcloud
+  Downloading wordcloud-1.8.1.tar.gz (220 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 220.7/220.7 KB 1.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: numpy>=1.6.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from wordcloud) (1.22.3)
+Requirement already satisfied: pillow in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from wordcloud) (9.1.0)
+Requirement already satisfied: matplotlib in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from wordcloud) (3.5.1)
+Requirement already satisfied: pyparsing>=2.2.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->wordcloud) (3.0.8)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->wordcloud) (2.8.2)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->wordcloud) (4.33.3)
+Requirement already satisfied: packaging>=20.0 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->wordcloud) (21.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->wordcloud) (0.11.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->wordcloud) (1.4.2)
+Requirement already satisfied: six>=1.5 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.7->matplotlib->wordcloud) (1.16.0)
+Using legacy 'setup.py install' for wordcloud, since package 'wheel' is not installed.
+Installing collected packages: wordcloud
+  Running setup.py install for wordcloud ... done
+Successfully installed wordcloud-1.8.1
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> py app.py
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly> python app.py
+PS C:\Users\91897\Downloads\Assignments\plotly\plotly>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CORS_ORIGIN_WHITELIST=('http://google.com')
+
+Microsoft Windows [Version 10.0.22000.613]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\91897\Downloads\Django>python -m venv myenv
+
+C:\Users\91897\Downloads\Django>myenv\scripts\activate
+
+(myenv) C:\Users\91897\Downloads\Django>pip install django
+Collecting django
+  Downloading Django-4.0.4-py3-none-any.whl (8.0 MB)
+     ---------------------------------------- 8.0/8.0 MB 9.7 MB/s eta 0:00:00
+Collecting tzdata
+  Downloading tzdata-2022.1-py2.py3-none-any.whl (339 kB)
+     ---------------------------------------- 339.5/339.5 KB 3.5 MB/s eta 0:00:00
+Collecting asgiref<4,>=3.4.1
+  Downloading asgiref-3.5.0-py3-none-any.whl (22 kB)
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.2-py3-none-any.whl (42 kB)
+     ---------------------------------------- 42.3/42.3 KB ? eta 0:00:00
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.5.0 django-4.0.4 sqlparse-0.4.2 tzdata-2022.1
+
+(myenv) C:\Users\91897\Downloads\Django>pip install djangorestframework
+Collecting djangorestframework
+  Downloading djangorestframework-3.13.1-py3-none-any.whl (958 kB)
+     ---------------------------------------- 958.3/958.3 KB 3.8 MB/s eta 0:00:00
+Collecting pytz
+  Downloading pytz-2022.1-py2.py3-none-any.whl (503 kB)
+     ---------------------------------------- 503.5/503.5 KB 30.8 MB/s eta 0:00:00
+Requirement already satisfied: django>=2.2 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from djangorestframework) (4.0.4)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from django>=2.2->djangorestframework) (0.4.2)
+Requirement already satisfied: tzdata in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from django>=2.2->djangorestframework) (2022.1)
+Requirement already satisfied: asgiref<4,>=3.4.1 in c:\users\91897\appdata\local\programs\python\python310\lib\site-packages (from django>=2.2->djangorestframework) (3.5.0)
+Installing collected packages: pytz, djangorestframework
+Successfully installed djangorestframework-3.13.1 pytz-2022.1
+
+(myenv) C:\Users\91897\Downloads\Django>django-admin startproject DjangoAPI
+
+(myenv) C:\Users\91897\Downloads\Django>code .
+
+(myenv) C:\Users\91897\Downloads\Django>python manage.py runserver
+C:\Users\91897\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'C:\\Users\\91897\\Downloads\\Django\\manage.py': [Errno 2] No such file or directory
+
+(myenv) C:\Users\91897\Downloads\Django>cd DjangoAPI
+
+(myenv) C:\Users\91897\Downloads\Django\DjangoAPI>python manage.py runserver
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Django\DjangoAPI\manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Django\DjangoAPI\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\91897\Downloads\Django\DjangoAPI\manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+
+(myenv) C:\Users\91897\Downloads\Django\DjangoAPI>myenv\scripts\activate
+The system cannot find the path specified.
+
+(myenv) C:\Users\91897\Downloads\Django\DjangoAPI>code .
+
+(myenv) C:\Users\91897\Downloads\Django\DjangoAPI>python manage.py runserver
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Django\DjangoAPI\manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91897\Downloads\Django\DjangoAPI\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\91897\Downloads\Django\DjangoAPI\manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+
+(myenv) C:\Users\91897\Downloads\Django\DjangoAPI> python -m django --version
+C:\Users\91897\Downloads\Django\myenv\Scripts\python.exe: No module named django
+
+(myenv) C:\Users\91897\Downloads\Django\DjangoAPI>cd ..
+
+(myenv) C:\Users\91897\Downloads\Django> python -m django --version
+C:\Users\91897\Downloads\Django\myenv\Scripts\python.exe: No module named django
+
+(myenv) C:\Users\91897\Downloads\Django>cd ..
+
+(myenv) C:\Users\91897\Downloads> python -m django --version
+C:\Users\91897\Downloads\Django\myenv\Scripts\python.exe: No module named django
+
+(myenv) C:\Users\91897\Downloads>cd Django
+
+(myenv) C:\Users\91897\Downloads\Django>code .
+
+(myenv) C:\Users\91897\Downloads\Django>python manage.py migrate
+C:\Users\91897\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'C:\\Users\\91897\\Downloads\\Django\\manage.py': [Errno 2] No such file or directory
+
+(myenv) C:\Users\91897\Downloads\Django>
